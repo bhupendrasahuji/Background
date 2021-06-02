@@ -1,0 +1,22 @@
+{
+  "name": "background",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js" 
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhupendrasahuji/background.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhupendrasahuji/background/issues"
+  },
+  "homepage": "https://github.com/bhupendrasahuji/background#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
